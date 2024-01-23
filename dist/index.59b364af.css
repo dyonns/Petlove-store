@@ -1,0 +1,118 @@
+.vzWsgG_wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Regular.1c3b5636.woff2") format("woff2"), url("Lato-Regular.9c1a1d5b.woff") format("woff"), url("Lato-Regular.193c0edd.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Medium.3146ca31.woff2") format("woff2"), url("Lato-Medium.8a4a04ab.woff") format("woff"), url("Lato-Medium.9eb6f8c8.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Semibold.fb6784cd.woff2") format("woff2"), url("Lato-Semibold.ee223e9d.woff") format("woff"), url("Lato-Semibold.339062f0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("Lato-Bold.2900eca9.woff2") format("woff2"), url("Lato-Bold.4cca51fa.woff") format("woff"), url("Lato-Bold.dad58104.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+
+body {
+  font-family: var(--main-fonts);
+  background-color: var(--basic-color);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--main-text);
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (width >= 480px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (width >= 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (width >= 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/*# sourceMappingURL=index.59b364af.css.map */
