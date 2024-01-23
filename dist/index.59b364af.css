@@ -7,32 +7,51 @@
   display: flex;
 }
 
+.QI2yZq_title {
+  letter-spacing: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.QI2yZq_image {
+  fill: #f6b83d;
+  width: 18px;
+  height: 18px;
+}
+
 @font-face {
-  font-family: Lato;
-  src: url("Lato-Regular.1c3b5636.woff2") format("woff2"), url("Lato-Regular.9c1a1d5b.woff") format("woff"), url("Lato-Regular.193c0edd.ttf") format("truetype");
+  font-family: Manrope;
+  src: url("Manrope-Regular.0d105dba.woff2") format("woff2"), url("Manrope-Regular.16af8d7e.woff") format("woff"), url("Manrope-Regular.e7af952b.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url("Lato-Medium.3146ca31.woff2") format("woff2"), url("Lato-Medium.8a4a04ab.woff") format("woff"), url("Lato-Medium.9eb6f8c8.ttf") format("truetype");
+  font-family: Manrope;
+  src: url("Manrope-Medium.af00279e.woff2") format("woff2"), url("Manrope-Medium.72315aca.woff") format("woff"), url("Manrope-Medium.69a565ce.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url("Lato-Semibold.fb6784cd.woff2") format("woff2"), url("Lato-Semibold.ee223e9d.woff") format("woff"), url("Lato-Semibold.339062f0.ttf") format("truetype");
+  font-family: Manrope;
+  src: url("Manrope-Semibold.dcb6a34f.woff2") format("woff2"), url("Manrope-Semibold.562f375f.woff") format("woff"), url("Manrope-Semibold.9f7d0c7c.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url("Lato-Bold.2900eca9.woff2") format("woff2"), url("Lato-Bold.4cca51fa.woff") format("woff"), url("Lato-Bold.dad58104.ttf") format("truetype");
+  font-family: Manrope;
+  src: url("Manrope-Bold.3a175f76.woff2") format("woff2"), url("Manrope-Bold.3b5d03db.woff") format("woff"), url("Manrope-Bold.cd5af75a.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+}
+
+:root {
+  --main-fonts: "Manrope", sans-serif;
+  --basic-color: #f4f4f4;
+  --main-text: #262626;
 }
 
 html {

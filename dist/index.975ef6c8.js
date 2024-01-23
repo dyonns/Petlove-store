@@ -34233,6 +34233,8 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _sharedLayoutModuleScss = require("./SharedLayout.module.scss");
 var _sharedLayoutModuleScssDefault = parcelHelpers.interopDefault(_sharedLayoutModuleScss);
 var _reactRouterDom = require("react-router-dom");
+var _logo = require("../Logo/Logo");
+var _logoDefault = parcelHelpers.interopDefault(_logo);
 const SharedLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -34242,11 +34244,9 @@ const SharedLayout = ()=>{
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: (0, _sharedLayoutModuleScssDefault.default).wrapper,
                         children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: "LOGO"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                lineNumber: 10,
+                                lineNumber: 11,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34255,27 +34255,27 @@ const SharedLayout = ()=>{
                                         children: "News"
                                     }, void 0, false, {
                                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 12,
+                                        lineNumber: 14,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         children: "Find pet"
                                     }, void 0, false, {
                                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 13,
+                                        lineNumber: 15,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         children: "Our friends"
                                     }, void 0, false, {
                                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 14,
+                                        lineNumber: 16,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                lineNumber: 11,
+                                lineNumber: 13,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34284,41 +34284,41 @@ const SharedLayout = ()=>{
                                         children: "LOG IN"
                                     }, void 0, false, {
                                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 17,
+                                        lineNumber: 19,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         children: "REGISTRATION"
                                     }, void 0, false, {
                                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 18,
+                                        lineNumber: 20,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                lineNumber: 16,
+                                lineNumber: 18,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                    lineNumber: 8,
+                    lineNumber: 9,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                lineNumber: 23,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined)
         ]
@@ -34334,8 +34334,103 @@ $RefreshReg$(_c, "SharedLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./SharedLayout.module.scss":"f6vat","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6vat":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./SharedLayout.module.scss":"f6vat","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Logo/Logo":"fPzMq"}],"f6vat":[function(require,module,exports) {
 module.exports["wrapper"] = `vzWsgG_wrapper`;
+
+},{}],"fPzMq":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c0ca = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c0ca.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _spriteSvg = require("../../assets_local/icons/sprite.svg");
+var _spriteSvgDefault = parcelHelpers.interopDefault(_spriteSvg);
+var _logoModuleScss = require("./Logo.module.scss");
+var _logoModuleScssDefault = parcelHelpers.interopDefault(_logoModuleScss);
+function Logo() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: (0, _logoModuleScssDefault.default).title,
+            children: [
+                "petl",
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                    className: (0, _logoModuleScssDefault.default).image,
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                        href: `${(0, _spriteSvgDefault.default)}#icon-logo`
+                    }, void 0, false, {
+                        fileName: "src/components/Logo/Logo.jsx",
+                        lineNumber: 10,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Logo/Logo.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this),
+                "ve"
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Logo/Logo.jsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this)
+    }, void 0, false);
+}
+_c = Logo;
+exports.default = Logo;
+var _c;
+$RefreshReg$(_c, "Logo");
+
+  $parcel$ReactRefreshHelpers$c0ca.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets_local/icons/sprite.svg":"3Tyiv","./Logo.module.scss":"aJkpm"}],"3Tyiv":[function(require,module,exports) {
+module.exports = require("f9a745273b6eed6a").getBundleURL("bLxZJ") + "sprite.5ebd657e.svg" + "?" + Date.now();
+
+},{"f9a745273b6eed6a":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"aJkpm":[function(require,module,exports) {
+module.exports["image"] = `QI2yZq_image`;
+module.exports["title"] = `QI2yZq_title`;
 
 },{}],"lJZlQ":[function() {},{}]},["4rkIz","1xC6H","8lqZg"], "8lqZg", "parcelRequire6713")
 

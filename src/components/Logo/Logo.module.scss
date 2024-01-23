@@ -1,0 +1,26 @@
+
+.title {
+    // font-family: var(--main-fonts);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+    // color: var(--main-text);
+}
+
+
+.image {
+    width: 18px;
+    height: 18px;
+    fill: #F6B83D;
+
+    // @include tablet {
+    //     width: 26px;
+    //     height: 26px;
+    // }
+
+    // @include desktop {
+    //     width: 26px;
+    //     height: 26px;
+    // }
+}
