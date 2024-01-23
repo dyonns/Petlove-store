@@ -1,4 +1,4 @@
-import icons from "../../assets_local/icons/sprite.svg";
+import icons from "../../../assets_local/icons/sprite.svg";
 import style from "./Logo.module.scss";
 
 function Logo() {
@@ -6,7 +6,7 @@ function Logo() {
     <>
       <div className={style.title}>
         petl
-        <svg className={style.image}>
+        <svg className={style.icon}>
           <use href={`${icons}#icon-logo`}></use>
         </svg>
         ve

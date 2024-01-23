@@ -1,0 +1,18 @@
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    font-family: var(--main-fonts);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+
+    & div {
+        padding: 15px 20px;
+        border: 1px solid #26262626;
+        border-radius: 30px;
+    }
+}
+

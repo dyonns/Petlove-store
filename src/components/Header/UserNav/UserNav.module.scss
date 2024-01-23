@@ -1,0 +1,40 @@
+.userNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    font-family: var(--main-fonts);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.8;
+    letter-spacing: -0.03em;
+    
+    & >:first-child {        
+        border-radius: 30px;
+        padding: 15px 35px;
+        background: var(--basic-colorDarker);
+        color: var(--second-text);
+
+        text-transform: uppercase;
+    }
+    & :last-child {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+    }
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--basic-colorDarker);
+}
+
+.iconFone {
+    background-color: var(--basic-colorLighter);
+    padding: 13px;
+    border-radius: 50%;
+
+}

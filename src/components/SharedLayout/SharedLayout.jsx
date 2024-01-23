@@ -1,6 +1,9 @@
 import style from "./SharedLayout.module.scss";
 import { Outlet } from "react-router-dom";
-import Logo from "../Logo/Logo";
+import Logo from "../Header/Logo/Logo";
+import Nav from "../Header/Navigation/Nav";
+import AuthNav from "../Header/AuthNav/AuthNav";
+import UserNav from "../Header/UserNav/UserNav";
 
 const SharedLayout = () => {
   return (
@@ -9,16 +12,11 @@ const SharedLayout = () => {
         <div className="container">
           <div className={style.wrapper}>
             <Logo />
-            {/* <div>LOGO</div> */}
-            <div>
-              <div>News</div>
-              <div>Find pet</div>
-              <div>Our friends</div>
+            <div className={style.navExtension}>
+              <Nav />
             </div>
-            <div>
-              <div>LOG IN</div>
-              <div>REGISTRATION</div>
-            </div>
+            <AuthNav />
+            {/* <UserNav /> */}
           </div>
         </div>
       </header>

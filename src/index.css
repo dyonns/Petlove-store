@@ -24,8 +24,11 @@
 }
 :root {
   --main-fonts: "Manrope", sans-serif;
-  --basic-color: #F4F4F4;
+  --background-color: #F4F4F4;
+  --basic-colorLighter: #FFF4DF;
+  --basic-colorDarker: #F6B83D;
   --main-text: #262626;
+  --second-text: #ffffff;
 }
 
 html {
@@ -46,7 +49,7 @@ code {
 
 body {
   font-family: var(--main-fonts);
-  background-color: var(--basic-color);
+  background-color: var(--background-color);
 }
 
 p,

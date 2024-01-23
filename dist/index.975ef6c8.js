@@ -34233,8 +34233,14 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _sharedLayoutModuleScss = require("./SharedLayout.module.scss");
 var _sharedLayoutModuleScssDefault = parcelHelpers.interopDefault(_sharedLayoutModuleScss);
 var _reactRouterDom = require("react-router-dom");
-var _logo = require("../Logo/Logo");
+var _logo = require("../Header/Logo/Logo");
 var _logoDefault = parcelHelpers.interopDefault(_logo);
+var _nav = require("../Header/Navigation/Nav");
+var _navDefault = parcelHelpers.interopDefault(_nav);
+var _authNav = require("../Header/AuthNav/AuthNav");
+var _authNavDefault = parcelHelpers.interopDefault(_authNav);
+var _userNav = require("../Header/UserNav/UserNav");
+var _userNavDefault = parcelHelpers.interopDefault(_userNav);
 const SharedLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -34246,56 +34252,22 @@ const SharedLayout = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _logoDefault.default), {}, void 0, false, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                lineNumber: 11,
+                                lineNumber: 14,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: "News"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 14,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: "Find pet"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 15,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: "Our friends"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 16,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
+                                className: (0, _sharedLayoutModuleScssDefault.default).navExtension,
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navDefault.default), {}, void 0, false, {
+                                    fileName: "src/components/SharedLayout/SharedLayout.jsx",
+                                    lineNumber: 16,
+                                    columnNumber: 15
+                                }, undefined)
+                            }, void 0, false, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                lineNumber: 13,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: "LOG IN"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 19,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        children: "REGISTRATION"
-                                    }, void 0, false, {
-                                        fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                                        lineNumber: 20,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _authNavDefault.default), {}, void 0, false, {
                                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
                                 lineNumber: 18,
                                 columnNumber: 13
@@ -34303,22 +34275,22 @@ const SharedLayout = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                        lineNumber: 10,
+                        lineNumber: 13,
                         columnNumber: 11
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                    lineNumber: 9,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                lineNumber: 8,
+                lineNumber: 11,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/components/SharedLayout/SharedLayout.jsx",
-                lineNumber: 25,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined)
         ]
@@ -34334,20 +34306,21 @@ $RefreshReg$(_c, "SharedLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./SharedLayout.module.scss":"f6vat","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Logo/Logo":"fPzMq"}],"f6vat":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./SharedLayout.module.scss":"f6vat","react-router-dom":"9xmpe","../Header/Logo/Logo":"bsBq3","../Header/Navigation/Nav":"9LEyr","../Header/AuthNav/AuthNav":"cPrBa","../Header/UserNav/UserNav":"ac9GB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"f6vat":[function(require,module,exports) {
+module.exports["navExtension"] = `vzWsgG_navExtension`;
 module.exports["wrapper"] = `vzWsgG_wrapper`;
 
-},{}],"fPzMq":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$c0ca = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bsBq3":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$fbc2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$c0ca.prelude(module);
+$parcel$ReactRefreshHelpers$fbc2.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _spriteSvg = require("../../assets_local/icons/sprite.svg");
+var _spriteSvg = require("../../../assets_local/icons/sprite.svg");
 var _spriteSvgDefault = parcelHelpers.interopDefault(_spriteSvg);
 var _logoModuleScss = require("./Logo.module.scss");
 var _logoModuleScssDefault = parcelHelpers.interopDefault(_logoModuleScss);
@@ -34358,23 +34331,23 @@ function Logo() {
             children: [
                 "petl",
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                    className: (0, _logoModuleScssDefault.default).image,
+                    className: (0, _logoModuleScssDefault.default).icon,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
                         href: `${(0, _spriteSvgDefault.default)}#icon-logo`
                     }, void 0, false, {
-                        fileName: "src/components/Logo/Logo.jsx",
+                        fileName: "src/components/Header/Logo/Logo.jsx",
                         lineNumber: 10,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "src/components/Logo/Logo.jsx",
+                    fileName: "src/components/Header/Logo/Logo.jsx",
                     lineNumber: 9,
                     columnNumber: 9
                 }, this),
                 "ve"
             ]
         }, void 0, true, {
-            fileName: "src/components/Logo/Logo.jsx",
+            fileName: "src/components/Header/Logo/Logo.jsx",
             lineNumber: 7,
             columnNumber: 7
         }, this)
@@ -34385,12 +34358,12 @@ exports.default = Logo;
 var _c;
 $RefreshReg$(_c, "Logo");
 
-  $parcel$ReactRefreshHelpers$c0ca.postlude(module);
+  $parcel$ReactRefreshHelpers$fbc2.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../assets_local/icons/sprite.svg":"3Tyiv","./Logo.module.scss":"aJkpm"}],"3Tyiv":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../../../assets_local/icons/sprite.svg":"3Tyiv","./Logo.module.scss":"epRWo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3Tyiv":[function(require,module,exports) {
 module.exports = require("f9a745273b6eed6a").getBundleURL("bLxZJ") + "sprite.5ebd657e.svg" + "?" + Date.now();
 
 },{"f9a745273b6eed6a":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -34428,9 +34401,193 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"aJkpm":[function(require,module,exports) {
-module.exports["image"] = `QI2yZq_image`;
-module.exports["title"] = `QI2yZq_title`;
+},{}],"epRWo":[function(require,module,exports) {
+module.exports["icon"] = `ZuoDOW_icon`;
+module.exports["title"] = `ZuoDOW_title`;
+
+},{}],"9LEyr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$829f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$829f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _navModuleScss = require("./Nav.module.scss");
+var _navModuleScssDefault = parcelHelpers.interopDefault(_navModuleScss);
+const Nav = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: (0, _navModuleScssDefault.default).nav,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "News"
+            }, void 0, false, {
+                fileName: "src/components/Header/Navigation/Nav.jsx",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Find pet"
+            }, void 0, false, {
+                fileName: "src/components/Header/Navigation/Nav.jsx",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Our friends"
+            }, void 0, false, {
+                fileName: "src/components/Header/Navigation/Nav.jsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header/Navigation/Nav.jsx",
+        lineNumber: 4,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Nav;
+exports.default = Nav;
+var _c;
+$RefreshReg$(_c, "Nav");
+
+  $parcel$ReactRefreshHelpers$829f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Nav.module.scss":"cjUQS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cjUQS":[function(require,module,exports) {
+module.exports["nav"] = `HV2DNG_nav`;
+
+},{}],"cPrBa":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$99d9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$99d9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _authNavModuleScss = require("./AuthNav.module.scss");
+var _authNavModuleScssDefault = parcelHelpers.interopDefault(_authNavModuleScss);
+const AuthNav = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: (0, _authNavModuleScssDefault.default).authNav,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "log in"
+            }, void 0, false, {
+                fileName: "src/components/Header/AuthNav/AuthNav.jsx",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "registration"
+            }, void 0, false, {
+                fileName: "src/components/Header/AuthNav/AuthNav.jsx",
+                lineNumber: 6,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header/AuthNav/AuthNav.jsx",
+        lineNumber: 4,
+        columnNumber: 5
+    }, undefined);
+};
+_c = AuthNav;
+exports.default = AuthNav;
+var _c;
+$RefreshReg$(_c, "AuthNav");
+
+  $parcel$ReactRefreshHelpers$99d9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./AuthNav.module.scss":"7sZ5W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7sZ5W":[function(require,module,exports) {
+module.exports["authNav"] = `_6vQOrG_authNav`;
+
+},{}],"ac9GB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$22a5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$22a5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _spriteSvg = require("../../../assets_local/icons/sprite.svg");
+var _spriteSvgDefault = parcelHelpers.interopDefault(_spriteSvg);
+var _userNavModuleScss = require("./UserNav.module.scss");
+var _userNavModuleScssDefault = parcelHelpers.interopDefault(_userNavModuleScss);
+const UserNav = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: (0, _userNavModuleScssDefault.default).userNav,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "log out"
+            }, void 0, false, {
+                fileName: "src/components/Header/UserNav/UserNav.jsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: (0, _userNavModuleScssDefault.default).iconFone,
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                            className: (0, _userNavModuleScssDefault.default).icon,
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("use", {
+                                href: `${(0, _spriteSvgDefault.default)}#icon-user`
+                            }, void 0, false, {
+                                fileName: "src/components/Header/UserNav/UserNav.jsx",
+                                lineNumber: 11,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header/UserNav/UserNav.jsx",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/Header/UserNav/UserNav.jsx",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined),
+                    "Name"
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Header/UserNav/UserNav.jsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header/UserNav/UserNav.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = UserNav;
+exports.default = UserNav;
+var _c;
+$RefreshReg$(_c, "UserNav");
+
+  $parcel$ReactRefreshHelpers$22a5.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","../../../assets_local/icons/sprite.svg":"3Tyiv","./UserNav.module.scss":"1iGJo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1iGJo":[function(require,module,exports) {
+module.exports["icon"] = `_2hn9vq_icon`;
+module.exports["iconFone"] = `_2hn9vq_iconFone`;
+module.exports["userNav"] = `_2hn9vq_userNav`;
 
 },{}],"lJZlQ":[function() {},{}]},["4rkIz","1xC6H","8lqZg"], "8lqZg", "parcelRequire6713")
 

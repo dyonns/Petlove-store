@@ -1,0 +1,31 @@
+
+.authNav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    font-family: var(--main-fonts);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.8;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    
+
+    & div {
+        border-radius: 30px;
+    }
+
+    & :first-child{
+        padding: 15px 35px;
+        background: var(--basic-colorDarker);
+        color: var(--second-text);
+    }
+
+    & :last-child {
+        padding: 15px 20px;
+        background: var(--basic-colorLighter);
+        color: var(--basic-colorDarker);
+    }
+        
+}

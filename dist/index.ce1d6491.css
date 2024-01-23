@@ -1,118 +1,3 @@
-.vzWsgG_wrapper {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  display: flex;
-}
-
-.vzWsgG_navExtension {
-  display: none;
-}
-
-@media screen and (width >= 768px) {
-  .vzWsgG_navExtension {
-    display: block;
-  }
-}
-
-.ZuoDOW_title {
-  font-family: var(--main-fonts);
-  letter-spacing: 0;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.ZuoDOW_icon {
-  fill: #f6b83d;
-  width: 18px;
-  height: 18px;
-}
-
-.HV2DNG_nav {
-  font-family: var(--main-fonts);
-  flex-direction: row;
-  gap: 10px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: .8;
-  display: flex;
-}
-
-.HV2DNG_nav div {
-  border: 1px solid #26262626;
-  border-radius: 30px;
-  padding: 15px 20px;
-}
-
-._6vQOrG_authNav {
-  font-family: var(--main-fonts);
-  letter-spacing: -.03em;
-  text-transform: uppercase;
-  flex-direction: row;
-  gap: 10px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: .8;
-  display: flex;
-}
-
-._6vQOrG_authNav div {
-  border-radius: 30px;
-}
-
-._6vQOrG_authNav :first-child {
-  background: var(--basic-colorDarker);
-  color: var(--second-text);
-  padding: 15px 35px;
-}
-
-._6vQOrG_authNav :last-child {
-  background: var(--basic-colorLighter);
-  color: var(--basic-colorDarker);
-  padding: 15px 20px;
-}
-
-._2hn9vq_userNav {
-  font-family: var(--main-fonts);
-  letter-spacing: -.03em;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: .8;
-  display: flex;
-}
-
-._2hn9vq_userNav > :first-child {
-  background: var(--basic-colorDarker);
-  color: var(--second-text);
-  text-transform: uppercase;
-  border-radius: 30px;
-  padding: 15px 35px;
-}
-
-._2hn9vq_userNav :last-child {
-  align-items: center;
-  gap: 8px;
-  display: flex;
-}
-
-._2hn9vq_icon {
-  fill: var(--basic-colorDarker);
-  width: 24px;
-  height: 24px;
-}
-
-._2hn9vq_iconFone {
-  background-color: var(--basic-colorLighter);
-  border-radius: 50%;
-  padding: 13px;
-}
-
 @font-face {
   font-family: Manrope;
   src: url("Manrope-Regular.0d105dba.woff2") format("woff2"), url("Manrope-Regular.16af8d7e.woff") format("woff"), url("Manrope-Regular.e7af952b.ttf") format("truetype");
@@ -230,4 +115,119 @@ button, a {
   }
 }
 
-/*# sourceMappingURL=index.59b364af.css.map */
+.vzWsgG_wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+}
+
+.vzWsgG_navExtension {
+  display: none;
+}
+
+@media screen and (width >= 768px) {
+  .vzWsgG_navExtension {
+    display: block;
+  }
+}
+
+.ZuoDOW_title {
+  font-family: var(--main-fonts);
+  letter-spacing: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ZuoDOW_icon {
+  fill: #f6b83d;
+  width: 18px;
+  height: 18px;
+}
+
+.HV2DNG_nav {
+  font-family: var(--main-fonts);
+  flex-direction: row;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: .8;
+  display: flex;
+}
+
+.HV2DNG_nav div {
+  border: 1px solid #26262626;
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+
+._6vQOrG_authNav {
+  font-family: var(--main-fonts);
+  letter-spacing: -.03em;
+  text-transform: uppercase;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: .8;
+  display: flex;
+}
+
+._6vQOrG_authNav div {
+  border-radius: 30px;
+}
+
+._6vQOrG_authNav :first-child {
+  background: var(--basic-colorDarker);
+  color: var(--second-text);
+  padding: 15px 35px;
+}
+
+._6vQOrG_authNav :last-child {
+  background: var(--basic-colorLighter);
+  color: var(--basic-colorDarker);
+  padding: 15px 20px;
+}
+
+._2hn9vq_userNav {
+  font-family: var(--main-fonts);
+  letter-spacing: -.03em;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: .8;
+  display: flex;
+}
+
+._2hn9vq_userNav > :first-child {
+  background: var(--basic-colorDarker);
+  color: var(--second-text);
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 15px 35px;
+}
+
+._2hn9vq_userNav :last-child {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+._2hn9vq_icon {
+  fill: var(--basic-colorDarker);
+  width: 24px;
+  height: 24px;
+}
+
+._2hn9vq_iconFone {
+  background-color: var(--basic-colorLighter);
+  border-radius: 50%;
+  padding: 13px;
+}
+
+/*# sourceMappingURL=index.ce1d6491.css.map */

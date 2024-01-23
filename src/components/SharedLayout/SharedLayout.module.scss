@@ -1,3 +1,6 @@
+@import '../../../assets/styles/mixin';
+// @import '/assets/styles/mixin';
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -6,4 +9,12 @@
     padding-top: 17px;
     padding-bottom: 17px;
 
+}
+
+.navExtension {
+    display: none;
+
+    @include tablet {
+        display: block;
+    }
 }
