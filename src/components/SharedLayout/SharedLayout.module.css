@@ -7,11 +7,14 @@
   padding-bottom: 17px;
 }
 
-.navExtension {
-  display: none;
+@media (max-width: 700px) {
+  .navExtension {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .navExtension {
     display: block;
+    background-color: yellow;
   }
 }/*# sourceMappingURL=SharedLayout.module.css.map */

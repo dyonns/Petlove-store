@@ -124,12 +124,15 @@ button, a {
   display: flex;
 }
 
-.vzWsgG_navExtension {
-  display: none;
+@media (width <= 700px) {
+  .vzWsgG_navExtension {
+    display: none;
+  }
 }
 
 @media screen and (width >= 768px) {
   .vzWsgG_navExtension {
+    background-color: #ff0;
     display: block;
   }
 }
